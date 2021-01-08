@@ -12,7 +12,7 @@ gulp.task('server', function() {
             baseDir: "src"
         }
     });
-
+    
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 

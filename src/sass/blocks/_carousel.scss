@@ -1,0 +1,56 @@
+.carousel {
+	padding: 81px 0px;
+	&__inner {
+		position: relative;
+		width: 750px;
+		margin: 0 auto;
+	}
+
+	.prev, .next {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: -60px;
+		border: none;
+		background: #fff;
+		img {
+			width: 31px;
+			height: 50px;
+		}
+	}
+
+	.next {
+		right: -50px;
+		left: auto;
+	}
+
+	.tns-nav {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 10px;
+
+		button {
+			border-radius: 100%;
+			width: 15px;
+			height: 15px;
+			background: $main-color;
+			border: none;
+			&:nth-child(-n+2) {
+				margin-right: 2px;
+			}
+		}
+
+		.tns-nav-active {
+			background: #EF2929FF;
+		}
+	}
+
+	.tns-item {
+		width: 850px;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}

@@ -4,15 +4,17 @@
 }
 
 .container {
+	position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
 
-@import 'blocks/titles';
-@import 'blocks/forms';
-@import 'blocks/buttons';
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/advantages';
-@import 'blocks/consultation';
+@import 'blocks/_titles';
+@import 'blocks/_forms';
+@import 'blocks/_buttons';
+@import 'blocks/_promo';
+@import 'blocks/_header';
+@import 'blocks/_advantages';
+@import 'blocks/_consultation';
+@import 'blocks/_carousel';
 @import 'base/media';

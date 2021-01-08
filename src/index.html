@@ -6,10 +6,12 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
+<!--     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+ -->    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -54,9 +56,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="advantages">
+    <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
 
@@ -82,9 +84,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="consultation">
+    <section class="consultation">
         <div class="container">
             <div class="consultation__wrapper">
                 <h2 class="title title_left">
@@ -106,8 +108,29 @@
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="img/catalog_pulsemeirs/pulsomeirs_carousel/pulsomeir_1.jpg" alt="slide">
+                </div>
+                
+                <div>
+                    <img src="img/catalog_pulsemeirs/pulsomeirs_carousel/pulsomeir_2.jpg" alt="slide">
+                </div>
+                
+                <div>
+                    <img src="img/catalog_pulsemeirs/pulsomeirs_carousel/pulsomeir_3.jpg" alt="slide">
+                </div>
+            </div>
+            <button type="button" class="prev hidden"><img src="../icons/arrow_left.png" alt="arrow"></button>
+            <button type="button" class="next hidden"><img src="../icons/arrow_right.png" alt="arrow"></button>
+        </div>
+    </section>
+
+    <script src="js/tiny-slider.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
